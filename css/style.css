@@ -40,6 +40,12 @@ li:hover{
 
 
 /* main */
+main{
+    width: 100%;
+    height: 1552px;
+    padding: 59px 108px 76px 108px;
+    border: 5px solid green;
+}
 
 
 
@@ -56,7 +62,7 @@ li:hover{
 footer{
     width: 100%;
     height: 419px;
-    /* border: 5px solid red; */
+    border: 5px solid red;
     padding: 110px 108px 110px 19px;
     display: flex;
     justify-content: space-between;
@@ -81,21 +87,21 @@ footer{
 }
 .fa-square-facebook:hover{
     cursor: pointer;
-   transform: skew(20deg);
+   transform: skewY(20deg);
    transition-duration: .5s;
 }
 .fa-instagram:hover{
     cursor: pointer;
-   transform: skew(20deg);
+   transform: skewY(20deg);
    transition-duration: .5s;
 }
 .fa-twitter:hover{
     cursor: pointer;
-   transform: skew(20deg);
+   transform: skewY(20deg);
    transition-duration: .5s;
 }
 .fa-youtube:hover{
     cursor: pointer;
-   transform: skew(20deg);
+   transform: skewY(20deg);
    transition-duration: .5s;
 }
