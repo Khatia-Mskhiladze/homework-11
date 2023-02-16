@@ -34,5 +34,7 @@ li:hover{
     display: flex;
     gap: 35.26px;
 }
+.icon{
+    color: #FDD504;
 }
 
